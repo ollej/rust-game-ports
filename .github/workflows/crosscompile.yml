@@ -28,7 +28,7 @@ jobs:
         os: [ubuntu-latest, macos-latest, windows-latest]
         include:
           - os: ubuntu-latest
-            packages: pkg-config libx11-dev libxi-dev libgl1-mesa-dev libasound2-dev gcc-mingw-w64
+            packages: pkg-config libx11-dev libxi-dev libgl1-mesa-dev libasound2-dev gcc-mingw-w64 libxcb-shape0-dev libxcb-xfixes0-dev libxcb1-dev libxkbcommon-dev
 
     steps:
       - uses: actions/checkout@v2
